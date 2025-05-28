@@ -1,0 +1,57 @@
+
+.get-started-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Home.png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+}
+
+.text-section {
+    flex: 1;
+    padding: 20px;
+    max-width: 50%;
+    text-align: left;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.get-started-button {
+    background-color: #4c68af;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.get-started-button:hover {
+    background-color: #3b413b;
+}
+
+.image-section {
+    flex: 1;
+    text-align: center;
+}
+
+.right-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+

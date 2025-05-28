@@ -1,0 +1,28 @@
+.visualization-page {
+    padding: 40px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .chart-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .chart-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 300px;
+  }
+  
+  .chart-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  

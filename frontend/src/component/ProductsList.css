@@ -1,0 +1,88 @@
+.product-image {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.left-section {
+  flex: 1 1 300px;
+  max-width: 35%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.product-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.short-description {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.detail-logout-button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  background-color: #e53935;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.detail-logout-button:hover {
+  background-color: #c62828;
+} .products-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;           /* ✅ Make it flex */
+  flex-wrap: wrap;         /* ✅ Wrap if too many products */
+  flex-direction: row;     /* ✅ Side-by-side in row */
+  gap: 20px;               /* Space between products */
+  justify-content: center; /* Optional: Center all rows */
+}
+
+
+.product-card {
+  width: 220px;            /* ✅ Fixed width for layout */
+  background-color: white;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex-shrink: 0;          /* ✅ Prevent card from shrinking */
+}
+
+.product-image {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.view-details-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #1976d2;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.view-details-btn:hover {
+  background-color: #115293;
+}
