@@ -19,7 +19,7 @@ export const getBiasStatus = async (req, res) => {
       const text = review.reviewText || review['review text_x'] || '';
       const rating = review.reviewRating || review['review rating'] || 0;
 
-      // Simple bias logic:
+      
       if (text.length < 50 || rating === 5 || rating === 1) {
         biasedCount++;
       } else {
